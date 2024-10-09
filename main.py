@@ -14,13 +14,13 @@ a = int(data[0])
 b = int(data[1])
 c = int(data[2])
 #a,b,c = int(data)
-if a>b and a>c:
+if a>=b and a>=c :
    output_data.write(str(a))
    print(a)
-elif b>a and b>c:
+elif b>=a and b>=c:
    output_data.write(str(b))
    print(b)
-elif c>b and c>a:
+elif c>=b and c>=a:
    output_data.write(str(c))   
    print(c)
    output_data.close()
